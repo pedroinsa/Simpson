@@ -79,6 +79,8 @@ function App() {
           <input onChange={handleChange} value={input} placeholder='nombre del personaje' name='characterInput' type="text" />
           <button className='bg-black border-yellow-500 p-1 shadow shadow-yellow-500 font-mono text-yellow-500 border-2 ml-2 hover:bg-yellow-500 hover:border-black hover:text-black' type='submit'>Enviar</button>
         </form>
+        {lifes >= 2 ? <div className='font-mono  text-yellow-500'>Te quedan {lifes} intentos</div> : null}
+        {lifes === 1 ? <div className='font-mono text-yellow-500'> Te queda {lifes} intento </div> : null}
         {lifes < 3 ? <div className=' font-mono text-yellow-500'>Tiene {character?.name.split(" ").length} palabra/s</div> : null}
         {lifes < 2 ? <div className=' font-mono text-yellow-500'>Comienza con {character?.name[0]} </div> : null}
         {gameOver ? <button className='bg-black border-yellow-500 p-1 shadow shadow-yellow-500 font-mono text-yellow-500 border-2 ml-2 hover:bg-yellow-500 hover:border-black hover:text-black' onClick={handleRestart}>Jugar de nuevo</button> : null}
