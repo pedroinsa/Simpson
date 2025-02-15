@@ -3,10 +3,10 @@ import { RootState } from './redux/store'
 import React, { MouseEvent, KeyboardEvent, ChangeEvent } from 'react';
 import { GameOver } from './components/GameOver';
 import './App.css'
-import image2 from "./family.png"
-import title from "./quienes.jpg"
-import win from "./win.jpeg"
-import gameover from "./gameover.jpeg"
+import image2 from "./assets/family.png"
+import title from "./assets/quienes.jpg"
+import win from "./assets/win.jpeg"
+import gameover from "./assets/gameover.jpeg"
 let random = Math.floor((Math.random() * 93) + 1)
 export type evento = MouseEvent<HTMLButtonElement> | KeyboardEvent<HTMLButtonElement>
 

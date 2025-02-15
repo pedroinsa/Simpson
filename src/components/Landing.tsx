@@ -1,7 +1,7 @@
 import React from 'react'
 import { evento } from '../App'
 import { Link, useNavigate } from 'react-router-dom'
-import image from "../../src/simpsons.jpeg"
+import image from "../assets/simpsons.jpeg"
 import '../App.css'
 
 export const Landing = () => {

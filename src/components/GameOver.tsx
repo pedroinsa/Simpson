@@ -1,4 +1,3 @@
-import React from 'react'
 import { evento } from '../App'
 import "../App.css"
 interface winProps {

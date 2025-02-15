@@ -1,12 +1,12 @@
 import {
     GET_ALL_CHARACTERS
 } from "../actions"
-import rodd from "../../../src/rodd.png"
-import bart from "../../../src/bart3.png"
-import martin from "../../../src/Martin.png"
-import sherri from "../../../src/sherri.png"
-import manjula from "../../manjula.png"
-import hoover from "../../hoover.png"
+import rodd from "../../assets/rodd.png"
+import bart from "../../assets/bart3.png"
+import martin from "../../assets/Martin.png"
+import sherri from "../../assets/sherri.png"
+import manjula from "../../assets/manjula.png"
+import hoover from "../../assets/hoover.png"
 interface characterProps {
     name: string
     src: string
